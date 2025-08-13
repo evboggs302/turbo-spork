@@ -1,6 +1,3 @@
-import db from "@db/index";
-import { Advocate, advocates } from "@db/schema";
-
 const specialties = [
   "Bipolar",
   "LGBTQ",
@@ -37,10 +34,8 @@ const randomSpecialty = () => {
   return [random1, random2];
 };
 
-const advocateData: Advocate[] = [
+const advocateData = [
   {
-    id: 0,
-    createdAt: null,
     firstName: "John",
     lastName: "Doe",
     city: "New York",
@@ -50,8 +45,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5551234567,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Jane",
     lastName: "Smith",
     city: "Los Angeles",
@@ -61,8 +54,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5559876543,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Alice",
     lastName: "Johnson",
     city: "Chicago",
@@ -72,8 +63,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5554567890,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Michael",
     lastName: "Brown",
     city: "Houston",
@@ -83,8 +72,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5556543210,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Emily",
     lastName: "Davis",
     city: "Phoenix",
@@ -94,8 +81,7 @@ const advocateData: Advocate[] = [
     phoneNumber: 5553210987,
   },
   {
-    id: 0,
-    createdAt: null,
+
     firstName: "Chris",
     lastName: "Martinez",
     city: "Philadelphia",
@@ -105,8 +91,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5557890123,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Jessica",
     lastName: "Taylor",
     city: "San Antonio",
@@ -116,8 +100,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5554561234,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "David",
     lastName: "Harris",
     city: "San Diego",
@@ -127,8 +109,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5557896543,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Laura",
     lastName: "Clark",
     city: "Dallas",
@@ -138,8 +118,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5550123456,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Daniel",
     lastName: "Lewis",
     city: "San Jose",
@@ -149,8 +127,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5553217654,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Sarah",
     lastName: "Lee",
     city: "Austin",
@@ -160,8 +136,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5551238765,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "James",
     lastName: "King",
     city: "Jacksonville",
@@ -171,8 +145,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5556540987,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Megan",
     lastName: "Green",
     city: "San Francisco",
@@ -182,8 +154,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5559873456,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Joshua",
     lastName: "Walker",
     city: "Columbus",
@@ -193,8 +163,6 @@ const advocateData: Advocate[] = [
     phoneNumber: 5556781234,
   },
   {
-    id: 0,
-    createdAt: null,
     firstName: "Amanda",
     lastName: "Hall",
     city: "Fort Worth",
